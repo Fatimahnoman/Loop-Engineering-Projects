@@ -3,8 +3,7 @@
 
 def reverse_string(s):
     """Return the input string with its characters reversed."""
-    # BUG: Returns the string as-is instead of reversing it.
-    return s
+    return s[::-1]
 
 
 def is_palindrome(text):
